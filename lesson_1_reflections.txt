@@ -1,0 +1,28 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+    its showed exact location of the error inside the given code
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+    It will allow me to compare exact change in the newer version, and whether my application or code is doing the same thing in an effective way. In case there is a need to switch back to a previous method, there is always this good old version file waiting for me
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Manually creating a commit is like saving a block of code after editing. You save it when a change is made and it is functional. Same for commits, which is usually done for a change like new feature addition, o a quick bug fix. Unlike auto-save, we dont need to worry about it saving your project at a moment where the code is not functional.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+    Service like git is a version control service which can be used to track versions and changes to large fie structures that make up a project, so it makes sense to "save" the instances of multple files at once as the changes in all/some of them affect the way other files function, which is a detail you want your commit to note.
+
+How can you use the commands git log and git diff to view the history of files?
+
+	git log is helpful in keeping track of all the commits that have been made to the branch, while git diff compares any of these different commits for overall change in the code
+
+How might using version control make you more confident to make changes that could break something?
+
+    with git checkout, u can always go back to the previous state in which your files were present. This removes the fear f "losing" good code while trying to experiment with bold decisions. In case yu fuck up you can always return back to the commit previous to that using git checkout. It is a really powerful tool that all developers should have in their arsenal.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+   	Having little to none experience with git, It is pretty hard to see what will work and what will not. However, based on what is learned by me so far, it is excellent for keeping track of changes in a project as well as reverting back to a previous error free state in case you screw up something lad.
